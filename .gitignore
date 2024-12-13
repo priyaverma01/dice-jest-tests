@@ -22,10 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-src/assets/dice.png
-src/assets/Dice/dice_1.png
-src/assets/Dice/dice_2.png
-src/assets/Dice/dice_3.png
-src/assets/Dice/dice_4.png
-src/assets/Dice/dice_5.png
-src/assets/Dice/dice_6.png
