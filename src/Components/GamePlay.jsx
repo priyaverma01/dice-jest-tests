@@ -3,14 +3,12 @@ import RollDice from "./RollDice";
 import SelectNumber from "./SelectNumber";
 import TotalScore from "./TotalScore";
 import styled from "styled-components";
+import React from 'react'
 
 function GamePlay() {
     const [totalScore, setTotalScore] = useState(0);
-
     const [selectedNumber, setSelectedNumber] = useState(null);
-
     const [showAlert, setShowAlert] = useState(false); // State for displaying alert
-
     const handleRollDice = (rolledNumber) => {
         console.log("Rolled Number:", rolledNumber);
 

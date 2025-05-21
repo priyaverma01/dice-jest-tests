@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1747823336779" clover="3.2.0">
+  <project timestamp="1747823336779" name="All files">
+    <metrics statements="63" coveredstatements="36" conditionals="21" coveredconditionals="7" methods="22" coveredmethods="12" elements="106" coveredelements="55" complexity="0" loc="63" ncloc="63" packages="2" files="6" classes="6"/>
+    <package name="src">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <file name="App.jsx" path="/home/my/Desktop/dice-app/Dice-Game-in-React/src/App.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="15" count="4" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="src.Components">
+      <metrics statements="59" coveredstatements="32" conditionals="19" coveredconditionals="5" methods="19" coveredmethods="9"/>
+      <file name="GamePlay.jsx" path="/home/my/Desktop/dice-app/Dice-Game-in-React/src/Components/GamePlay.jsx">
+        <metrics statements="22" coveredstatements="9" conditionals="6" coveredconditionals="1" methods="5" coveredmethods="1"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="83" count="1" type="stmt"/>
+      </file>
+      <file name="Home.jsx" path="/home/my/Desktop/dice-app/Dice-Game-in-React/src/Components/Home.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+      </file>
+      <file name="RollDice.jsx" path="/home/my/Desktop/dice-app/Dice-Game-in-React/src/Components/RollDice.jsx">
+        <metrics statements="21" coveredstatements="9" conditionals="9" coveredconditionals="2" methods="6" coveredmethods="2"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="29" count="3" type="cond" truecount="1" falsecount="6"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="52" count="3" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="55" count="3" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+      </file>
+      <file name="SelectNumber.jsx" path="/home/my/Desktop/dice-app/Dice-Game-in-React/src/Components/SelectNumber.jsx">
+        <metrics statements="11" coveredstatements="9" conditionals="4" coveredconditionals="2" methods="6" coveredmethods="4"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="22" count="18" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="56" count="18" type="cond" truecount="1" falsecount="1"/>
+        <line num="57" count="18" type="cond" truecount="1" falsecount="1"/>
+      </file>
+      <file name="TotalScore.jsx" path="/home/my/Desktop/dice-app/Dice-Game-in-React/src/Components/TotalScore.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

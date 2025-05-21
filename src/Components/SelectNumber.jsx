@@ -1,5 +1,6 @@
 import {useState} from "react";
 import styled from "styled-components";
+import React from 'react'
 
 function SelectNumber({onSelectNumber}) {
     const [selectNumber, setSelectNumber] = useState();

@@ -1,6 +1,8 @@
+
 import {useState} from "react";
 import Home from "./Components/Home";
 import GamePlay from "./Components/GamePlay";
+import React from 'react'
 
 function App() {
     // using state hook to change the home component when user click on play now button
@@ -10,7 +12,7 @@ function App() {
     const toggleGamePlay = () => {
         setGamePlay((prev) => !prev);
     };
-    return <div>{gamePlay ? <GamePlay /> : <Home toggle={toggleGamePlay} />}</div>;
+    return <div>{gamePlay ? <GamePlay /> : <Home toggle={toggleGamePlay} />}</div>;    
 }
 
 export default App;

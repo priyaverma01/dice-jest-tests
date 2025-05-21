@@ -6,10 +6,10 @@ import dice_3 from "../assets/Dice/dice_3.png";
 import dice_4 from "../assets/Dice/dice_4.png";
 import dice_5 from "../assets/Dice/dice_5.png";
 import dice_6 from "../assets/Dice/dice_6.png";
+import React from 'react'
 
-function RollDice({onRoll, resetScore}) {
+function RollDice({onRoll, resetScore}){
     const [rolledNumber, setRolledNumber] = useState(1);
-
     const [showRules, setShowRules] = useState(false);
 
     // creating a function to genrate random number between 1 to 6 for dice
@@ -123,3 +123,4 @@ const RollDiceContainer = styled.div`
         margin-bottom: 5px;
     }
 `;
+

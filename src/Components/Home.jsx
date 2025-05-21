@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import dice from "../assets/dice.png";
-
+import React from 'react'
 function Home({toggle}) {
     return (
         <Container>
@@ -13,7 +13,7 @@ function Home({toggle}) {
             </div>
         </Container>
     );
-}
+}   
 
 export default Home;
 
